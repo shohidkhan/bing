@@ -1,0 +1,121 @@
+header {
+  border-bottom: 1px solid rgb(223, 223, 223);
+}
+.top_header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.search_area {
+  position: relative;
+  border: 1px solid rgb(245, 245, 245);
+  border-radius: 20px;
+  padding: 0 10px;
+  box-shadow: 1px 1px 5px 0px rgba(179, 179, 179, 0.75);
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(179, 179, 179, 0.75);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(179, 179, 179, 0.75);
+}
+
+.search_area button {
+  background-color: transparent;
+  border: none;
+}
+.search_icon {
+  color: #7a7a7a;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.micro_icon,
+.img_icon {
+  color: rgb(52, 52, 238);
+}
+.search_bar {
+  border: none;
+  outline: none;
+  width: 450px;
+  height: 40px;
+}
+.res_menu button {
+  border: none;
+  font-weight: 400;
+  padding: 4px 16px;
+  border: 1px solid #dcdcdc;
+}
+.reward span {
+  margin-right: 10px;
+}
+.trophy {
+  position: relative;
+}
+.trophy::after {
+  content: "";
+  width: 30px;
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 30px;
+  border: 2px solid rgb(52, 52, 238);
+  border-radius: 50%;
+}
+.main_trophy {
+  color: rgb(52, 52, 238);
+}
+.bar {
+  font-size: 20px;
+}
+/* search menu part start */
+.search_menu ul li {
+  list-style: none;
+  display: inline-block;
+}
+.search_menu ul li a {
+  text-decoration: none;
+  color: rgb(105, 105, 105);
+  font-size: 12px;
+  margin: 0px 15px;
+  position: relative;
+  padding: 0 15px;
+}
+.search_menu ul li a::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: rgba(52, 52, 238, 0);
+}
+.search_menu ul li a.active::after {
+  background-color: rgba(52, 52, 238, 1);
+}
+/* search result part start */
+.search_results_few {
+  border-bottom: 1px solid rgb(223, 223, 223);
+  padding-bottom: 30px;
+}
+.total_search_result p {
+  font-size: 14px;
+  color: #7a7a7a;
+}
+.user_info a {
+  text-decoration: none;
+  color: #000000;
+}
+.user_info img {
+  width: 70px;
+}
+.about_user h3 {
+  font-size: 20px;
+}
+.about_user_tag a {
+  text-decoration: none;
+  color: #4007a2;
+  margin: 0 5px;
+  padding: 5px 15px;
+  font-size: 14px;
+  border: 1px solid rgba(52, 52, 238, 1);
+  background-color: rgba(52, 52, 238, 0.1);
+  border-radius: 20px;
+}
